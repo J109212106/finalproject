@@ -8,14 +8,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <title>J109212108的期末作業</title>
+    <title>J109212106的期末作業</title>
   </head>
   <body>
     <div class="container">
-    <h1>J109212108柯伎璟的期末作業</h1>
+    <h1>陳仁志的期末作業</h1>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">J109212108</a>
+            <a class="navbar-brand" href="#">J109212106</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -71,7 +71,7 @@
     @endauth
     <table class="table table-striped"> <!--讓表格比較漂亮-->
     <tr>
-            <th>編號</th><th>馬路消息</th><th>張貼時間</th><th>DEL</th>
+            <th>編號</th><th>馬路消息</th><th>張貼時間</th><th>管理</th>
     </tr>
     @foreach ($titles as $item)
         <tr>
