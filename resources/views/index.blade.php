@@ -13,6 +13,9 @@
   <body>
     <div class="container">
     <h1>陳仁志的期末作業</h1>
+    @auth
+    <?php $username = Auth::user()->name; echo $username; ?>
+    @endauth
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">J109212106</a>
